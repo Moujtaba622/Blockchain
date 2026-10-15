@@ -31,6 +31,8 @@ dependencies {
     cordaProvided "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
     cordaProvided 'com.google.guava:guava:23.0'
 
+    compileOnly "javax.persistence:javax.persistence-api:2.2"
+
     // Corda dependencies.
     cordaProvided "$corda_core_release_group:corda-core:$corda_core_release_version"
     testImplementation "$corda_release_group:corda-node-driver:$corda_release_version"
