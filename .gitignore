@@ -76,3 +76,19 @@ docs/virtualenv/
 
 # if you use the installQuasar task
 lib
+
+# Ignore Gradle build output
+build/
+*/build/
+
+# Ignore IDE files
+.idea/
+*.iml
+out/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore local mock network data
+build/mock-network/
